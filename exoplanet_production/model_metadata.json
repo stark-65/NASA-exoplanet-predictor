@@ -1,0 +1,24 @@
+{
+  "created_at": "2026-06-06T07:57:47.276816",
+  "dataset_size": 5483,
+  "clf_model": "XGBoost",
+  "clf_f1": 0.8584,
+  "clf_auc": 0.9633,
+  "reg_model": "LightGBM",
+  "reg_r2": 0.9235,
+  "reg_rmse_K": 127.34,
+  "target_clf": "planet_class (5 classes)",
+  "target_reg": "pl_eqt (equilibrium temperature K)",
+  "classes": [
+    "Gas Giant",
+    "Neptune-like",
+    "Rocky/Terrestrial",
+    "Sub-Neptune/Super-Earth",
+    "Water/Volatile-rich"
+  ],
+  "top_feature_clf": "hill_radius",
+  "top_feature_reg": "a_over_Rstar",
+  "hz_rocky_count": 14,
+  "top_esi_planet": "Kepler-438 b",
+  "top_esi_score": 0.9827
+}
